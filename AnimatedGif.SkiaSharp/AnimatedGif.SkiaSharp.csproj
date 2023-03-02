@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AnimatedGif\AnimatedGif.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SkiaSharp" Version="2.88.3" />
+    </ItemGroup>
+
+</Project>
